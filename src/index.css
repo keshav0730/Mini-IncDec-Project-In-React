@@ -54,7 +54,7 @@ input{
     border-bottom: 2px solid #8566aa;
     outline: none;
 }
-Button{
+button{
     min-height: 40px;
     /* width: 40px; */
     border-radius: 5%;
@@ -71,14 +71,18 @@ Button{
 
 }
 
-button:hover{
-    background-color: #22a6b3;
-}
+
 .btn_div{
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.btn_green:hover{
+      color: #2ed573;
+}
+.btn_red:hover{
+    color: #ff4757;
 }
 ol{
     margin-top: 30px;
